@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Druari Perfumes</title>
+    <link rel="stylesheet" href="register.css">
+
+<body id="druarstore">
+    <div class="container-registration">
+        <h2>Register an Account</h2>
+        <form action="registration_process.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+
+            <a href="after-register.html" class="is-submit">Register</a>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.card.col-md-6 {
+    border: none;
+}
+.card-body p{
+    font-weight: bold;
+    font-size: 25px;
+}
